@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 0;
+    border-radius: 7px;
+}
+
+body > header {
+    background-color: rgb(122, 170, 241);
+    padding: 1px 22px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li { 
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    margin-left: 8px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 230px;*/
+    width: 100%;
+
+}
+
+.articles article {
+    width: 32%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    color: rgb(22, 22, 22);
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles  article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.945);
+}
+
+#sports h2 {
+    color: black;
+}
+
+#sports {
+    background-color: rgb(200, 245, 200);
+}
+
+#sports .articles article a {
+    background-color: rgba(18, 255, 18, 0.651);
+}
+
+#economy h2 {
+    color: black;
+}
+
+#economy {
+    background-color: rgba(238, 238, 35, 0.486);
+}
+
+#economy .articles article a {
+    background-color: rgb(247, 247, 49);
+}
+
+#entertainment h2 {
+    color: black;
+}
+
+#entertainment {
+    background-color: rgba(148, 46, 148, 0.445);
+}
+
+#entertainment .articles article a {
+    background-color: rgba(148, 46, 148, 0.445);
+}
+
+#technology h2 {
+    color: black
+}
+
+#technology {
+    background-color:rgba(43, 106, 241, 0.384);
+}
+
+#technology .articles article a {
+    background-color:rgba(37, 97, 226, 0.514);
+}
+
+.creation-date {
+    color: rgb(10, 33, 99);
+}
+
